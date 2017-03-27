@@ -6,6 +6,56 @@
 		body {
 			background-color: black
 		}
+		body,html {
+			height:100%;
+			margin: 0;
+			font: 400 15px/1.8 "Lato",sans-serif;                                                 
+			color: #777; 
+		}
+		.bgimg-1, .bgimg-2, .bgimg-3 {
+			position: relative;
+			opacity: 0.65;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover; 
+		}
+		.bgimg-1 {
+			background-image: url("lushbargraphics/lushbargraphic5.jpg");
+			min-height:100%;
+		}
+		.bgimg-2 {
+			background-image:url("lushbargraphics/lushbargraphic7.jpg");
+			min-height:100%;
+		}
+		.bgimg-3 {
+			background-image:url("lushbargraphics/lushbargraphic2.jpg");
+			min-height:100%;
+		}
+
+		.caption {
+			position: absolute;
+			left:0;
+			top:160%;
+			width:100%;
+			text-align:center;
+			color:#000;
+		}
+
+		.caption span.border {
+			background-color:111;
+			color:#fff;
+			padding:18px;
+			font-size: 25px;
+			letter-spacing:10px;
+		}
+		.about {
+			text-align:center;
+			min-height:200px;
+		}
+		.contact {
+			min-height: 200px
+		}
 		h1{
 			color:white; 
 			margin-top: 30px;
@@ -22,7 +72,7 @@
 </head>
 <body>
 	<header>
-		<h1>Lush<span style="font-family: cursive; font-size:; ">BAR</span></h1>
+		<h1><span style="font-family:Snell, cursive; font-size:40px;"> Lush</span>BAR</h1>
 	</header>
 	<ul>
 		<li><a href="#">Events</a></li>
@@ -31,6 +81,19 @@
 		<li><a href="#">About</a></li>
 		<li><a href="#">Contact</a></li>
 	</ul>
+	
+	<div class="bgimg-1"> </div>
+	<div class="bgimg-2"></div>
+		<div class="caption">
+			<span class="border">ABOUT</span>
+		</div>
+	<div class="about"><p style="padding-top:50px;">What started as the brain-child of three Harlem entrepreneurs would become the innovative new kid on the bar scene. Meet the LushBar. Established in 2017, the Lush Bar is as gritty and grass roots as its birthplace and is here to quench your next event’s thirst. Choose from a wide selection of Grade A quality liqueurs and cocktails or create your own specialty orders to fit the personality of your event. No one fully understands the back breaking work that goes towards planning an A-List event like the LushBAR. Not only do we provide in demand drinks, we also do deliveries and pick up. Trust us, you’ll thank us later. So the next time you’re looking to cater the bar or your next event, relax, have a drink. This one is on us. </p></div>
+	<div class="bgimg-3"></div>
+
+	<div class="contact"> 
+
+
+	 </div>
 
 </body>
 </html>
